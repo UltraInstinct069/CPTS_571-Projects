@@ -1,0 +1,26 @@
+
+Task 1) Detecting DNA fingerprints: 
+Genralized suffix tree construction time: 713.1388113498688 sec
+Fingerprint generation time: 1.403167724609375 sec
+Covid_Wuhan.fasta 's fingerprint: GTACAGTGAACAATGCTAGGGAGAGCTGCCTATATGGAAGAGCCCTAATGTGTAAAATTAATTTTAGTAGTGCTATCCCCATGTGATTTTAATAGCTTCTTAGGAGAATGACAAAAAAAAAAAAA
+Fingerprint Length:  125
+Covid_USA-CA4.fasta 's fingerprint: ACTTACCG
+Fingerprint Length:  8
+Covid_Australia.fasta 's fingerprint: ATACAGTG
+Fingerprint Length:  8
+Covid_India.fasta 's fingerprint: ACTAAGGA
+Fingerprint Length:  8
+Covid_Brazil.fasta 's fingerprint: CGCGCTC
+Fingerprint Length:  7
+SARS_2017_MK062179.fasta 's fingerprint: AACCTCG
+Fingerprint Length:  7
+SARS_2003_GU553363.fasta 's fingerprint: CAGGAGG
+Fingerprint Length:  7
+MERS_2014_USA_KP223131.fasta 's fingerprint: GTCCCC
+Fingerprint Length:  6
+MERS_2014_KY581694.fasta 's fingerprint: CCCCTTG
+Fingerprint Length:  7
+MERS_2012_KF600620.fasta 's fingerprint: CAAGGGG
+Fingerprint Length:  7
+
+Total Time for Finger Print task: 716.1287336349487
