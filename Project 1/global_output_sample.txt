@@ -1,0 +1,25 @@
+Scroes: match=  1   Mismatch:  -2  h:  -5  g: -2
+
+Sequence 1 = "s1", length =  125 characters
+Sequence 2 = "s2", length =  111 characters
+
+Global Optimal Score:  55
+
+Matchs:  105 MisMatchs:  6 Opening gaps:  2 gap_extension:  14
+Identities = 105/125 (84.0%), Gaps: 14/125 (11.2%)
+
+*********************
+global alignment printing
+*********************
+s1 1       A C A T G C T A C A C G T A T C C G A T A C C C C G T A A C C G A T A A C G A T A C A C A G A C C T C G T A C G C T T G   60
+           | | | | | |   | | | |       | | | | | | | | | | | | | | | | | | | | | | | | | | | | |   | | | | | | | | | | | | | | | | 
+s2 1       A C A T G C G A C A C T A C T C C G A T A C C C C G T A A C C G A T A A C G A T A C A G A G A C C T C G T A C G C T T G   60 
+
+s1 61      C T A C A A C G T A C T C T A T A A C C G A G A A C G A T T G A C A T G C C T C G T A C A C A T G C T A C A C G T A C T   120
+           | | |                       | | | | | | | | | | | | | | | | | | | | |   | | | | | | | | |       | | | | | | | | | | | | 
+s2 61      C T A - - - - - - - - - - - A T A A C C G A G A A C G A T T G A C A T T C C T C G T A C A - - - G C T A C A C G T A C T   106 
+
+s1 121     C C G A T   125
+           | | | | | 
+s2 107     C C G A T   111 
+

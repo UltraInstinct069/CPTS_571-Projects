@@ -1,0 +1,37 @@
+Scroes: match=  1   Mismatch:  -2  h:  -5  g: -2
+
+Sequence 1 = "s1", length =  3843 characters
+Sequence 2 = "s2", length =  3302 characters
+
+Local Optimal score: 221
+
+Matchs:  305 MisMatchs:  42 Opening gaps:  0 gap_extension:  0
+Identities = 305/347 (87.89625360230548%), Gaps: 0/347 (0.0%)
+
+*********************
+Local alignment printing
+*********************
+s1      G A G G A T G A C T T T T A C C T G T T T C A G A A T A T C T C T T C G G T G G G G C C C T G G G A T G G G C C T C A G 
+        | | | | |   | |   | | | | |   | | | | |     |   | | | | | | | | | | |   | | | | | | | |   | | | | | | | | | | | | | | | 
+s2      G A G G A A G A G T T T T A T C T G T T C A A A A A T A T C T C T T C A G T G G G G C C G T G G G A T G G G C C T C A G 
+
+s1      T A C C A C C T T G C T C C T G T C T G G G C C T T C C G C C T C C A G G C A G C C T T C A T G G G A T T T G T C T T C 
+        | | | | | |   | | | |   | | | | | | | | | | | | | | |     | | | | | | | | | | | |   | | | | | | | |       | | | | | | | 
+s2      T A C C A C A T T G C C C C T G T C T G G G C C T T C T A C C T C C A G G C A G C T T T C A T G G G C A C T G T C T T C 
+
+s1      T T T G T G G G G A C C C C A C T C A A T G C C A T A G T G C T G G T G G C C A C A C T G C A T T A C A A A A A G T T G 
+          | |   |   | | |     | | | | | | | | | | | | | | |   | | | | | | | | | | | | | | | | | | |     | | | | | | | | | | | | 
+s2      C T T A T A G G G T T C C C A C T C A A T G C C A T G G T G C T G G T G G C C A C A C T G C G C T A C A A A A A G T T G 
+
+s1      C G A C A G C C C C T C A A C T A T A T T C T G G T C A A T G T A T C C C T C G G G G G C T T C C T C T T C T G C A T C 
+        | |   | | | | | | | | | | | | | |   | | | | | | | | | | |   | |   | | |   | | | |   | | | | | | | | |   | | | | | | | | 
+s2      C G G C A G C C C C T C A A C T A C A T T C T G G T C A A C G T G T C C T T C G G A G G C T T C C T C C T C T G C A T C 
+
+s1      T T C T C T G T C T T C A C A G T C T T C A T C G C C A G C T G T C A C G G A T A C T T C C T C T T T G G T C G C C A T 
+        | | | | | | | | | | | |   |   | | | | | |   | | | | | | | | | | |   | | | | | | | | | | |   | | | |   | | | | | | | | | 
+s2      T T C T C T G T C T T C C C T G T C T T C G T C G C C A G C T G T A A C G G A T A C T T C G T C T T C G G T C G C C A T 
+
+s1      G T T T G T G C T C T G G A G G C C T T C T T G G G C T C T G T A G C A G G T A C T G A A G G 
+        | | | | | | | | |   | | | | | |   | | | |   | | | | |   | | | | | | | | | | | | | | |   | | | 
+s2      G T T T G T G C T T T G G A G G G C T T C C T G G G C A C T G T A G C A G G T A C T G C A G G 
+

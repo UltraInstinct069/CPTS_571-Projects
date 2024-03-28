@@ -1,0 +1,21 @@
+
+Local Optimal score: 55
+
+Matchs:  105 MisMatchs:  6 Opening gaps:  2 gap_extension:  14
+Identities = 105/125 (84.0%), Gaps: 14/125 (11.2%)
+
+*********************
+Local alignment printing
+*********************
+s1      A C A T G C T A C A C G T A T C C G A T A C C C C G T A A C C G A T A A C G A T A C A C A G A C C T C G T A C G C T T G 
+        | | | | | |   | | | |       | | | | | | | | | | | | | | | | | | | | | | | | | | | | |   | | | | | | | | | | | | | | | | 
+s2      A C A T G C G A C A C T A C T C C G A T A C C C C G T A A C C G A T A A C G A T A C A G A G A C C T C G T A C G C T T G 
+
+s1      C T A C A A C G T A C T C T A T A A C C G A G A A C G A T T G A C A T G C C T C G T A C A C A T G C T A C A C G T A C T 
+        | | |                       | | | | | | | | | | | | | | | | | | | | |   | | | | | | | | |       | | | | | | | | | | | | 
+s2      C T A - - - - - - - - - - - A T A A C C G A G A A C G A T T G A C A T T C C T C G T A C A - - - G C T A C A C G T A C T 
+
+s1      C C G A T 
+        | | | | | 
+s2      C C G A T 
+

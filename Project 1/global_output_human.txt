@@ -1,0 +1,357 @@
+Scroes: match=  1   Mismatch:  -2  h:  -5  g: -2
+
+Sequence 1 = "s1", length =  5000 characters
+Sequence 2 = "s2", length =  5000 characters
+
+Global Optimal Score:  138
+
+Matchs:  3567 MisMatchs:  1294 Opening gaps:  56 gap_extension:  274
+Identities = 3567/5000 (71.34%), Gaps: 274/5000 (5.48%)
+
+*********************
+global alignment printing
+*********************
+s1 1       G T G G C G C G A G C T T C T G - A A A C T A - G G C G G C A G A G G C G G A G C - - - - C G C T G T G G C - - - - A C   50
+           |   | | | |         |   | |   |     |   | | |     | |   | |   |     | | | | | | |         | |   | |   | | |             
+s2 1       G A G G C G T T G C C G T C A G T C A G C T A C C G C T G C G G G A G C G G A G C G G G T C G G T G C G G C C G G G T G   60 
+
+s1 51      T G C T G C G C C T C T G C T G C - G C C T C G G G T G T C T T T T G C G G C G G T G G G T C G C C G C C G G G A G A A   109
+           | |     |   | |   |     | | |   |   |     | | |   |   |   |     |       | |     |   |     |     |     | |   | | | |   | 
+s2 61      T G G C G G G C G T G C G C T C C G G G G T C G T G A G G C C G T G A G G G A C G C G C C T G A C A C C C C G G A G G A   120 
+
+s1 110     G C G T G A G G - - - - - - - - - - - G G A C A G A T T T G T G A C C G G C G C G G T T T T T G T C A G C T T A C T C C   158
+           | |     |     |                       | |   | |                 |   |   | |   |   |   |       |   |   | |         | | | 
+s2 121     G C C A G T C G A C C T C C T T C A C G G C C A C C C G G A G C A G C T G C C C C G G T G C A G C C C G C G G C G T C C   180 
+
+s1 159     G G C C A A A - - - - - - - - - - - - - - - - A A A G - - - - - - - - A A C T G C A C C - - T C T G G A G - - - - C G G   188
+               | | |   |                                 |   | |                 |   | | | |   | |     | | | |   | |         | | | 
+s2 181     T C C C A G A G G G A T C C G G C G C G T C C A G A G T C C G C G G T A G C T G C C C C G T T C T G C A G T C G C C G G   240 
+
+s1 189     - - - - - - - - - - A C T T A T T T A C C A A G C A T T G G A G G A A T A T C G T A G G T A A A A A T G C C T A T T G G   238
+                               | | | |     | | | | |   | | | | |   | | | |   | | | |     | | | |     | | | |   | | | |     | | |   
+s2 241     A T T A C C T A A C A C T T C C T T A C C G A G C A T C G G A G A A A T A C T G T A G A G A A A A - T G C C C G T T G A   299 
+
+s1 239     A T C C A A A G A G A G G C C A A C A T T T T T T G A A A T T T T T A A G A C A C G C T G C A A C A A A G C A G A T T T   298
+           | |   | | | |     | | |   | | | | |   | | | |     | | | | | | | | | | | |   |     |   | | | |   | |   | | | | | | | | | 
+s2 300     A T A C A A A A G G A G A C C A A C T T T T T G G G A A A T T T T T A A G G C G A G A T G C A G C A C A G C A G A T T T   359 
+
+s1 299     A G G A C C A A T A A G T C T T A A T T G G T T T G A A G A A C T T T C T T C A G A A G C T C C A C C C T A T A A T T C   358
+           | | | | | |   | | | | |   | |   | | | | | | | | | | |   | |   | | | | |   | | | | | | | |   | |   | |   | |   | | | | | 
+s2 360     A G G A C C G A T A A G C C T C A A T T G G T T T G A G G A G C T T T C C T C A G A A G C C C C C C C A T A C A A T T C   419 
+
+s1 359     T G A A C C T G C A G A A G A A T C T G A A C A T A A A A A C A A C A A T T A C G A A C C A A A C C T A T T T A A A A C   418
+           | | | | | | |   |   | |   | | | | | | | |     | | | |       |   | |     | | |   | | | | | |   |   | |   | | | | | | | | 
+s2 420     T G A A C C T C C G G A G G A A T C T G A G T A T A A G C C C C A C G G T T A T G A A C C A C A G C T G T T T A A A A C   479 
+
+s1 419     T C C A C A A A G G A A A C C A T C T T A T A A T C A G C T G G C T T C A A C T C C A A T A A T A T T C A A A G A G C A   478
+             | | | | |   | | | | |   | |     |   | |     | | | | |   |   | | | | | | | | | | | | | | | | |   | | | | | | | |   |   
+s2 480     A C C A C A G A G G A A T C C C C C C T A C C A T C A G T T T G C T T C A A C T C C A A T A A T G T T C A A A G A A C G   539 
+
+s1 479     A G G G C T G A C T C T G C C G C T G T A C C A A T C T C C T G T A A A A G A A T T A G A T A A A T T C A A A T T A G A   538
+           |   |   |     | | | | |   | |   | | |   | | | |   | |   | | |   |   |   | | | | | | | |                                 
+s2 540     A A G T C A A A C T C T A C C A C T G G A C C A G T C G C C T T T C A G A G A A T T A G - - - - - - - - - - - - - - - -   583 
+
+s1 539     C T T A G G A A G G A A T G T T C C C A A T A G T A G A C A T A A A A G T C T T C G C A C A G T G A A A A C T A A A A T   598
+                   | | | | | |     | | | |   |   |   | | | | |   | | | | | | | |   | |       | | |   |     | | |   | |   | | |   | 
+s2 584     - - - - G G A A G G T - T G T T G C A A G T A G T A A A C A T A A A A C T C A C A G C A A A A A G A A G A C C A A A G T   638 
+
+s1 599     G G A T C A A G C A G A T G A T G T T T C C T G T C C A C T T C T A A A T T C T T G T C T T A G T G A A A G T C C T G T   658
+           | | |   |     |     |     | | | | | |   |     | | | |   |   | | |   | |   | | | | | | | |   | | | | | | | |   | | |   | 
+s2 639     G G A C C C T G T G G T A G A T G T T G C T A G T C C G C C T C T G A A A T C T T G T C T C A G T G A A A G C C C T C T   698 
+
+s1 659     T G T T C T A C A A T G T A C A C A T G T A A C A C C A C A A A G A G A T A A G T C A G T G G T A T G T G G G A G T T T   718
+           |     | | |   |     | |   | | | | |   |   |     | |   | | | |   | | | |   | | |   | | | | | | | | |   | | |   | | | | | 
+s2 699     T A C T C T G C G G T G C A C A C A G G C A G T A C T A C A A C G A G A A A A G C C A G T G G T A T C T G G A A G T T T   758 
+
+s1 719     G T T T C A T A C A C C A A A G T T T G T G A A G G G T C G T C A G A C A C C A A A A C A T A T T T C T G A A A G T C T   778
+             | | |   | | | | | | | | | |     |       |   | | | | | |       | | | | | | | | | | | |   | | | | | | | | |   | | | | | 
+s2 759     A T T T T A T A C A C C A A A A C T C A A G G A G G G T C - - - A G A C A C C A A A A C C T A T T T C T G A G A G T C T   815 
+
+s1 779     A G G A G C T G A G G T G G A T C C T G A T A T G T C T T G G T C A A G T T C T T T A G C T A C A C C A C C C A C C C T   838
+             | | | |   | | |   | | | | | | | | | | | | | | | | | | | | |   | | | |   | |   | | | | | | | | | | | | | |   | | | | | 
+s2 816     G G G A G T T G A A G T G G A T C C T G A T A T G T C T T G G A C A A G C T C A T T A G C T A C A C C A C C A A C C C T   875 
+
+s1 839     T A G T T C T A C T G T G C T C A T A G T C A G A A A T G A A G A A G C A T C T G A A A C T G T A T T T C C T C A T G A   898
+           | | | | | |   | | | | | | | | | | | | |   |   | |   | | | | | | | | | | |               | | | | |       | | |     | | | 
+s2 876     T A G T T C C A C T G T G C T C A T A G C C C G A G A T G A A G A A G C A C G C A G C T C T G T A A C G C C T G C T G A   935 
+
+s1 899     T A C T A C T G C T A A T G T G A A A A G C T A T T T T T C C A A T C A T G A T G A A A G T C T G A A G A A A A A T G A   958
+               | |   |   | | | |   |   | | | | | | | | |   | | | | | |   | |   | |     | | | | | | | | |       |   | | | | | | | | 
+s2 936     C T C T C C C G C T A C T T T G A A A A G C T G T T T T T C T A A C C A C A A T G A A A G T C C A C A A A A A A A T G A   995 
+
+s1 959     T A G A T T T A T C G C T T C T G T G A C A G A C A G T G A A A A C A C A A A T C A A A G A G A A G C T G C A A G T C A   1018
+           | | | | |   |   |     |   | |   | | | |     | | | | | | | | | | | | |   | | |   | |       | | | | | | |       | | | | | 
+s2 996     T A G A T C T G T T C C C T C A G T G A T T G A C A G T G A A A A C A A A A A C C A G C A A G A A G C T T T T A G T C A   1055 
+
+s1 1019    T G G A T T T G G A A A A A C A T C A G G G A A T T C A T T T - - - A A A G T A A A T A G C T G C A A A G A C C A C A T   1075
+             | |   | |   | |   | | | |     |   | | |     | | | | | |   |       | | |     | | | | | | | |   | | | | | | |     |   | 
+s2 1056    G G G T T T G G G G A A A A T G T T A G G A G A T T C A T C T G G C A A A A G A A A T A G C T T C A A A G A C T G C C T   1115 
+
+s1 1076    T G G A A A G T C A A T G C C A A A T G T C C T A G A A G A T G A A G T A T A T G A A A C A G T T G T A G A T A C C T C   1135
+           |   | | | | |   | | | |   | | | | | |   |   | | | | | | | | | |     |             |   | | | |   | | |   | | | | |   | | 
+s2 1116    T A G A A A G C C A A T A C C A A A T A T T C T A G A A G A T G G G G - - - - - - A G A C A G C T G T T G A T A C T T C   1169 
+
+s1 1136    T G A A G A A G A T A G T T T T T C A T T A T G T T T T T C T A A A T G T A G A A C A A A A A A T C T A C A A A A A G T   1195
+             | | | | | | | | | | | | | |   | | | | | | | | | | | |   | | | |     | | | | | | |   |   | | | | | | | | |   | | |   | 
+s2 1170    C G A A G A A G A T A G T T T C T C A T T A T G T T T T C C T A A G C G T A G A A C C A G A A A T C T A C A G A A A A T   1229 
+
+s1 1196    A A G A A C T A G C A A G A C T A G G A A A A A A A T T T T C C A T G A A G C A A A C G C T G A T G A A T - - - G T G A   1252
+             | | | |       | | | | | | |   | | | | | | | | | | | | | | |     | | | |   | | |       | | | | | | | | |       |   | | 
+s2 1230    G A G A A T G G G C A A G A C A A G G A A A A A A A T T T T C A G T G A A A C A A G A A C T G A T G A A T T A A G C G A   1289 
+
+s1 1253    A A A A T C T A A A A A C C A A G T G A A A G A A A A A T A C T C A T T T G T A T C T G A A G T G G A A C C A A A T G A   1312
+           |   | |   | | |   | |     | | |         |   | |   | | |   | | | | | | | | | | | |   | | | |   | | | | | |   | |     | | 
+s2 1290    A G A A G C T A G A A G A C A A A C T G A T G A T A A A A A C T C A T T T G T A T T T G A A A T G G A A C T A A G A G A   1349 
+
+s1 1313    T A C T G A T C C A T T A G A T T C A A A T G T A G C A A A T C A G A A G C C C T T T G A G A G T G G A A G T G A C A A   1372
+             |   | | | | | |   | | | | | |   | |     | | | |   | | |     | | | | | | | | | | | |   |   | |         |   | | |     | 
+s2 1350    G A G T G A T C C T T T A G A T C C A G G T G T A A C A A G C C A G A A G C C C T T T T A C A G C C A G A A T G A G G A   1409 
+
+s1 1373    A A T C T C C A A G G A A G T T G T A C C G T C T T T G G C C T G T G A A T G G T C T C A A C T A A C C C T T T C A G G   1432
+           | | | | |   | | |   | | | |   | | | | |   | |   | |     |       | |     | | | | | | | | |       | |   | | | | | |   | | 
+s2 1410    A A T C T G C A A T G A A G C T G T A C A G T G T T C A G A T A G T A G A T G G T C T C A G T C A A A C C T T T C T G G   1469 
+
+s1 1433    T C T A A A T G G A G C C C A G A T G G A G A A A A T A C C C C T A T T G C A T A T T T C T T C A T G T G A C C A A A A   1492
+           | | | | | | | |   |   | | | | | |     |     | | | | | |   | |   | |       | | | | | | | | | | |       |     | | | | | | 
+s2 1470    T C T A A A T G A A A C C C A G A C A G G A A A A A T A A C C T T A C C T C A T A T T T C T T C T C A T A G C C A A A A   1529 
+
+s1 1493    T A T T T C A G A A A A A G A C C T A T T A G A C A C A G A G A A C A A A A G A A A G A A A G A T T T T C T T A C T T C   1552
+           | | | | | | | | | |       | | |   |     | | | |   |       | | | |     | |   |   |           |     |   |   | | | | | | | 
+s2 1530    T A T T T C A G A A - - - G A C T T C A T A G A T A T G A A G A A A G A A G G T A C T - - - G G C T C T A T T A C T T C   1583 
+
+s1 1553    A G A G A A T T C T T T G C C A C G T A T T T C T A G C C T A C C A A A A T C A G A G A A G C C A T T A A A T G A G G A   1612
+           | | |   | |   | | | | |   | |   |   | | | | | | | | |   | |   | | |   | |   |   | |   | | |       | |   |   | | | | | | 
+s2 1584    A G A A A A A T C T T T A C C T C A T A T T T C T A G T C T T C C A G A A C C G G A A A A G A T G T T C A G T G A G G A   1643 
+
+s1 1613    A A C A G T G G T A A A T A A G A G A G A T G A A G A G C A G C A T C T T G A A T C T C A T A C A G A C T G C A T T C T   1672
+             | |   | | | | | |   | | | | |     |   | | | | | |     | | | | | |   | | | | | | |   |   |     | | | | |   | | | |     
+s2 1644    G A C T G T G G T A G A T A A G G A A C A T G A A G G A C A G C A T T T T G A A T C A C T T G A A G A C T C C A T T - -   1701 
+
+s1 1673    T G C A G T A A A G C A G G C A A T A T C T G G A A C T T C T C C A G T G G C T T C T T C A T T T C A G G G T A T C A A   1732
+             | | | |     | | | | |           |   | | |   | | | |       | |   | |     | |   |   |       |   | |   |   | | | | | |   
+s2 1702    - G C A G G G A A G C A A A T G G T G T C T A G A A C A A G T C A A G C A G C C T G T C T T T C T C C G A G T A T C A G   1760 
+
+s1 1733    A A A G T C T A T A T T C A G A A T A A G A G A A T C A C C T A A A G A G A C T T T C A A T G C A A G T T T T T C A G G   1792
+             | | | | | | | | | | | | |     | |   | | | | |     | | |   |   |   | | | | | | | |       |   |       | | |   | | | |   
+s2 1761    G A A G T C T A T A T T C A A G A T G A G A G A G C C A C T T G A C G A G A C T T T G G G T A C T G T T T T C T C A G A   1820 
+
+s1 1793    T C A T A T G A C T G A T C C A A A C T T T A A A A A A G A A A C T G A A G C C T C T G A A A G T G G A C T G G A A A T   1852
+           |     | | | | | |     |     | | |   | | | | |   |   | | | | |     | | | | | | | | | | |   |   | | | | |   | | |   | | | 
+s2 1821    T A G T A T G A C C A A C T C A A C C T T T A C A G A A G A A C A T G A A G C C T C T G C A T G T G G A T T G G G A A T   1880 
+
+s1 1853    A C A T A C T G T T T G C T C A C A G A A G G A G G A C T C C T T A T G T C C A A A T T T A A T T G A T A A T G G A A G   1912
+           | |   | | | | |     | | | | | | | | | |     | | | | |   | |     | | | | | | |   |   | |   |   | | | |   |   | | | | | | 
+s2 1881    A C T T A C T G C A T G C T C A C A G A G A G A G G A T T C T A T A T G T C C T A G T T C A G T T G A C A C T G G A A G   1940 
+
+s1 1913    C T G G C C A G C C A C C A C C A C A C A G A A T T C T G T A G C T T T G A A G A A T G C A G G T T T A A T A T C C A C   1972
+           | | | | | | |   | | | |       | | |     |   |   | | | | |       | |   | | | |   | | | | | | | | | | |   | | | | | | | | 
+s2 1941    C T G G C C A A C C A C T C T C A C T G A C A C T T C T G C C A C T G T G A A A A A T G C A G G T T T G A T A T C C A C   2000 
+
+s1 1973    T T T G A A A A A G A A A A C A A A T A A G T T T A T T T A T G C T A T A C A T G A T G A A A C A T C T T A T A A A G G   2032
+           |   |   | | | | |   | | | |   | |     | | | | | | | | | | |     | |   | |     | | | | | |     | | | | |     |   | | | | 
+s2 2001    T C T A A A A A A T A A A A A A A G A A A G T T T A T T T A C T C T G T A A G T G A T G A T G C A T C T C T T C A A G G   2060 
+
+s1 2033    A A A A A A A A T A C C G A A A G A C C A A A A A T C A G A A C T A A T T A A C T G T T C A G C C C A G T T T G A A G C   2092
+           | | | | | | |   | | |   | |   |   | |     |   |   |   | | |   | |   |   | | |       | | | | | | | | | |   | | | | | | | 
+s2 2061    A A A A A A A C T A C A G A C A C A C A G A C A G T T A G A G C T T A C T A A T C T T T C A G C C C A G C T T G A A G C   2120 
+
+s1 2093    A A A T G C T T T T G A A G C A C C A C T T A C A T T T G C A A A T G C T G A T T C A G G T T T A T T G C A T T C T T C   2152
+           | |   | | | | | | | | | | |   | | | |   |   | |   | | |   | | | | | |       | | | | | | | |   | |         | | | | | | | 
+s2 2121    A A G T G C T T T T G A A G T A C C A T T G A C C T T T A C A A A T G T A A A T T C A G G T A T A C C A G A T T C T T C   2180 
+
+s1 2153    T G T G A A A A G A A G C T G T T C A C A G A A T G A T T C T G A A G A A C C A A C T T T G T C C T T A A C T A G C T C   2212
+           | |     | | | |   |   | | | | | |   | |   | | | | | | |   | | | | | | |   | | |             | | | | |   | |   |   | | | 
+s2 2181    T G A C A A A A A A C G C T G T T T A C C G A A T G A T C C T G A A G A G C C A - - - - - - T C C T T G A C C A A C T C   2234 
+
+s1 2213    T T T T G G G A C A A T T C T G A G G A A A T G T T C T A G A A A T G A A A C A T G T T C T A A T A A T A C A G T A A T   2272
+           | | | | | | | | |       |       | |   | | |               | | | | |   |           | | |   | |   |   | |   | |   |   | | 
+s2 2235    T T T T G G G A C T G C T A C C A G T A A A - - - - - - - G A A A T T A - - - - - G T T A T A T T C A T G C A T T G A T   2282 
+
+s1 2273    C T C T C A G G A T C T T G A T T A T A A A G A A G C A A A A T G T A A T A A G G A A A A A C T A C A G T T A T T T A T   2332
+             | | | | | | | | | | | |   | |   |   | | | | | | | | | |   |       |   |   |   | | | | | | |   | | | |     | |   | |   
+s2 2283    A T C T C A G G A T C T T A A T G A C A A A G A A G C A A T A G T C A T T G A A G A A A A A C C A C A G C C A T A T A C   2342 
+
+s1 2333    T A C C C C A G A A G C T G A T T C T C T G T C A T G C C T G C A G G A A G G A C A G T G T G A A A A T G A T C C A A A   2392
+               | | |   | | | | | | | | |   |   | | | | |   | | | |   | | |     | | |   | |       | | | | | | | | | | |   |   | | | 
+s2 2343    A G C C C G A G A A G C T G A C T T T C T G T T A T G C T T G C C A G A A A G A A C A T G T G A A A A T G A C C A A A A   2402 
+
+s1 2393    A A G C A A A A A A G T T T C A G A T A T A A A A G A A G A G G T C T T G G C T G C A G C A T G T C A C C C A G T A C A   2452
+           | | |       | | | | | | | | |     | |     | | | | | | |   |   | | | | |   |   |   | | | | | | | | |     | |             
+s2 2403    A A G T C C A A A A G T T T C C A A T G G A A A A G A A A A A G T C T T A G T T T C A G C A T G T C T T C C - - - - - -   2456 
+
+s1 2453    A C A T T C A A A A G T G G A A T A C A G T G A T A C T G A C T T T C A A T C C C A G A A A A G T C T T T T A T A T G A   2512
+                 | | | |     | | | |   | |     | | |         |   |     | | | |   | | | |   | | |   | | |     |   |   |       | | | 
+s2 2457    - - - T T C A G C A G T G C A A C T C A G C A G C A T T A G C T T T G A A T C A C A G G A A A A C C C T C T T G G T G A   2513 
+
+s1 2513    T C A T G A A A A T G C C A G C A C T C T T A T T T T A A C T C C T A C T T C C A A G G A T G T T C T G T C A A A C C T   2572
+             | |     |           |   | |   | | | | | | |     | | | | | | | |   |     | |   | | |           | | | | | | | | |       
+s2 2514    C C A C A A C G G A A C A A G T A C T C T T A A A T T A A C T C C C A G C T C A A A G C T A C C T C T G T C A A A G G C   2573 
+
+s1 2573    A G T C A T G A T T T C T A G A G G C A A A G A A T C A T A C A A A A T G T C A G A C A A G C T C A A A G G T A A C A A   2632
+           | |   | | | |   | | | | | | | | |     | | |     | |     |     | | | | | |   | | | |   | |   | |     | |   | |   |   |   
+s2 2574    A G A C A T G G T T T C T A G A G A G A A A - - A T G - T G T A A A A T G C C A G A G A A A C T G C A A T G T G A G A G   2630 
+
+s1 2633    T T A T G A A T C T G A T G T T G A A T T A A C C A A A A A T A T T C C C A T G G A A A A G A A T C A A G A T G T A T G   2692
+           | |   |   | |     |   | |   | | | | |   | | |     | | | | |   | |       |   | | | |         | | |   | |         | | | | 
+s2 2631    T T G T A A A G T T A A T A T T G A A C T A A G T A A A A A C A T - - - C T T G G A G G T A A A T G A A A - - - T A T G   2684 
+
+s1 2693    T G C T T T A A A T G A A A A T T A T A A A A A C G T T G A G C T G T T G C C A C C T G A A A A A T A C A T G A G A G T   2752
+           |       | | | |   | | | | | | | |   | | | | |         | |   | | |     | | | | | | | | |       | |   |   | |   |   | |   
+s2 2685    T A T C T T A A G T G A A A A T T C T A A A A C T C C T G G G C T T C T G C C A C C T G G T G A A A A T A T A A T A G A   2744 
+
+s1 2753    A G C A T C A C C T T C A A G A A A G G T A C A A T T C A A C C A A A A C A C A A A T C T A A G A G T A A T C C A A A A   2812
+           | |       |     | | | | | |     | | |     | | |   | | | | |   | | | | |     | | | |       | |   | | |   | |   | |   | | 
+s2 2745    A G T G G C C T C T T C A A T G A A G T C A C A G T T C A A T C A A A A T G C A A A - - - A A T A G T C A T A C A G A A   2801 
+
+s1 2813    A A A T C A A G A A G A A A C T A C T T C A A T T T C A A A A A T A A C T G T C A A T C C A G A C T C T G A A G A A C T   2872
+               |   | | |   | | |       |     | | |     | | | | | |   | |   | |   |   | | | | | |         | | | | | | | | | | | | | 
+s2 2802    G G A C C A A A A A G G C T C A C C T T T T A T T T C A G A A G T A G C A G T C A A T A T G A A C T C T G A A G A A C T   2861 
+
+s1 2873    T T T C T C A G A C A A T G A G A A T A A T T T T G T C T T C C A A G T A G C T A A T G A A A G G A A T A A T C T T G C   2932
+           | | | |   | | | | | |   | |   | | | | | | | | | | |     | |   | | | | | |   | | | | |   | |   |   | | | | |   |   | |   
+s2 2862    T T T C C C A G A C A G T G G G A A T A A T T T T G C T T T T C A A G T A A C T A A T A A A T G C A A T A A G C C T G A   2921 
+
+s1 2933    T T T A G G A A A T A C T A A G G A A C T T C A T G A A A C A G A C T T G A C T T G T G T A A A C G A A C C C A T T T T   2992
+           | | | | | | | |   |   |       | | | | | |   | |   | | |     | | | |   |   |               |   |   |     | |   |   |   | 
+s2 2922    T T T A G G A A G T T C A G T G G A A C T C C A G G A A G A A G A C C T C A G C C A C A C A C A A G G G C C T A G T C T   2981 
+
+s1 2993    C A A G A A C T C T A C C A T G G T T T T A T A T G G A G A C A C A G G T G A T A A A C A A G C A A C C C A A G T G T C   3052
+           | | | | | | | | | |   | | | | | |       | |   | | |   | | |       | |   | | | |       | |   | | |   | | | | | | | | |   
+s2 2982    C A A G A A C T C T C C C A T G G C A G T A G A T G A A G A T G T A G A T G A T G C G C A T G C A G C C C A A G T G T T   3041 
+
+s1 3053    A A T T A A A A A - - - - - - A G A T T - - - - - - - - - T G G T T T A T G T T C T T G C A G A G G A G A A C A A A A A   3097
+             | | | |   | | |             | | | | |                   | | | |     | | |   |     |   | | | | |   | | |   | |   | | | 
+s2 3042    G A T T A C A A A G G A C T C A G A T T C A T T A G C T G T G G T C C A T G A T T A T A C A G A G A A G A G C A G A A A   3101 
+
+s1 3098    T A G T G T A A A G C A G C A T A T A A A A A T G A C T C T A G G T C A A G A T T T A A A A T C G G A C A T C T C C T T   3157
+           | |   |   | |   | | | | | | |         | | |       | |       | |       | | | | | | |   | |   | |     |       | | | | | | 
+s2 3102    T A A T A T A G A G C A G C A C C A G A A A G G A A C C G A A G A C A A A G A T T T C A A G T C A A A T T C C T C C T T   3161 
+
+s1 3158    G A A T A T A G A T A A A A T A C C A G A A A A A A A T A A T G A T T A C A T G A A C A A A T G G G C A G G A C T C T T   3217
+           | | | | | |           | | | |     | | | |         | |   |   | | | | |             | | | | | | | |   | | |       | | | | 
+s2 3162    G A A T A T G - - - - A A A T - - C A G A T G G G A A C A G T G A T T G T T C A G A C A A A T G G T C A G A G T T C T T   3215 
+
+s1 3218    A G G T C C A A T T T C A A A T C A C A G T T T T G G A G G T A G C T T C A G A A C A G C T T C A A A T A A G G A A A T   3277
+             |   | | | |   |   |     | |   | |   |   | | | | | | | | | | | | | | | | | | | | | | | | | | |   | | | | |   | | | | | 
+s2 3216    G G A T C C A G T C T T G A A C C A T A A T T T T G G A G G T A G C T T C A G A A C A G C T T C C A A T A A A G A A A T   3275 
+
+s1 3278    C A A G C T C T C T G A A C A T A A C A T T A A G A A G A G C A A A A T G T T C T T C A A A G A T A T T G A A G A A C A   3337
+             | |   | |   | |   | |   | | | | |     |   | | | | |   | |   | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 
+s2 3276    A A A A C T T T C A G A G C A T A A T G T C A A G A A A A G T A A A A T G T T C T T C A A A G A T A T T G A A G A A C A   3335 
+
+s1 3338    A T A T C C T A C T A G T T T A G C T T G T G T T G A A A T T G T A A A T A C C T T G G C A T T A G A T A A T C A A A A   3397
+             | | | | | | | | | | |   | | | | | | | | |   | | | |   | | | | |   | | | | | |   |     | | | | | |     | |   | |   | | 
+s2 3336    G T A T C C T A C T A G G T T A G C T T G T A T T G A C A T T G T T A A T A C C C T T C C A T T A G C A A A C C A G A A   3395 
+
+s1 3398    G A A A C T G A G C A A G C C T C - - - - - - - - - - - - - - - A G T C A A T T A A T A C T G T A T C T G C A C A T T T   3442
+           | | | | | |   | |     |   | | | |                               |   | | |   | | |   | | | | | | | | | |   | | | |   |   
+s2 3396    G A A A C T A A G T G A A C C T C A T A T A T T T G A T T T G A A A T C A G T T A C T A C T G T A T C T A C A C A G T C   3455 
+
+s1 3443    A C A G A G T A G T G T A G T T G T T T C T G A T T G T A A A A A T A G T C A T A T A A C C C C T C A G A T G T T A T T   3502
+             | |   |   |           |     | | | | | | |   | |         | |   | | |   |   |   |   |   |   | | | | | | | | | | | | |   
+s2 3456    T C A C A A T C A A T C A T C T G T T T C T C A T G - - - A A G A T A C T G A C A C A G C A C C T C A G A T G T T A T C   3512 
+
+s1 3503    T T C C A A G C A G G A T T T T A A T T C A A A C C A T A A T T T A A C A C C T A G C C A A A A G G C A G A A A T T A C   3562
+           | | |   | | | | |   | | | | | |   | | | | | | |       | | | | | | | | |     |   | | | | | | | |   | | | | | | | | | | | 
+s2 3513    T T C A A A G C A A G A T T T T C A T T C A A A - - - T A A T T T A A C G A C C A G C C A A A A A G C A G A A A T T A C   3569 
+
+s1 3563    A G A A C T T T C T A C T A T A T T A G A A G A A T C A G G A A G T C A G T T T G A A T T T A C T C A G T T T A G A A A   3622
+           | | | | | |   | | | | | | | |   | |   | | | | | | | | | | | | | | | | | | | | | | | | | |   | |   | | | | |   | | | | | 
+s2 3570    A G A A C T G T C T A C T A T T T T G G A A G A A T C A G G A A G T C A G T T T G A A T T C A C A C A G T T C A G A A A   3629 
+
+s1 3623    A C C A A G C T A C A T A T T G C A G A A G A G T A C A T T T G A A G T G C C T G A A A A C C A G A T G A C T A T C T T   3682
+             | | | | | |   | | | | |       | | | | |       | | | | |   | | | | | | | | | | |   | | | | | | | | | |     |   |   | | 
+s2 3630    G C C A A G C C A C A T A G C A C A G A A - - - T A C A T C T G A A G T G C C T G G A A A C C A G A T G G T T G T T T T   3686 
+
+s1 3683    A A A G A C C A C T T C T G A G G A A T G C A G A G A T G C T G A T C T T C A T G T C A T A A T G A A T G C C C C A T C   3742
+           | |     | | |   | | | | |   | | | |   | |   |   | | | |   | | | | | | | | | |     | |     |   | |   | |   | |       | | 
+s2 3687    A A G T A C C G C T T C T A A G G A G T G G A A A G A T A C T G A T C T T C A C C T C C C A G T G G A T C C C - - - T C   3743 
+
+s1 3743    G A T T G G T C A G G T A G A C A G C A G C A A G C A A T T T G A A G G T A C A G T T G A A A T T A A A C G G A A G T T   3802
+               |   | | | | | |     | | |       | | | | | | | | | | | | | | | | | | |   |   |   | |   |   | | | | | |     |     | | 
+s2 3744    T G T A G G T C A G A C A G A T C A C A G C A A G C A A T T T G A A G G T T C G G C T G G A G T T A A A C A A A G C T T   3803 
+
+s1 3803    T G C T G G C C T G T T G A A A A A T G A C T G T A A C A A A A G T G C T T C T G G T T A T T T A A C A G A T G A A A A   3862
+           |   | |     | | | | | |     | |   |         | | | | | | | | | |   |   |   | | |   | | |   | | | |   | |   | |     | | | 
+s2 3804    T C C T C A C C T G T T A G A A G A C A C T T G T A A C A A A A A T A C A T C T T G T T T T T T A C C A A A T A T A A A   3863 
+
+s1 3863    T G A A G T G G G G T T T A G G G G C T T T T A T T C T G C T C A T G G C A C A A A A C T G A A T G T T T C T A C T G A   3922
+           | | | |   | | |   | | | |   |   | |   | | | |   | | | | | | | |   | | | | | | | | | | | |   |   | | |   | | | |   | | | 
+s2 3864    T G A A A T G G A G T T T G G A G G A T T T T G T T C T G C T C T T G G C A C A A A A C T T A G T G T G T C T A A T G A   3923 
+
+s1 3923    A G C T C T G C A A A A A G C T G T G A A A C T G T T T A G T G A T A T T G A G A A T A T T A G T G A G G A A A C T T C   3982
+             | | | | | |     | | | | | | |   | | | | | | | | | |   | | | | |   | | | | |   | | | |       | | | | | | |     | | | | 
+s2 3924    G G C T C T G A G A A A A G C T A T G A A A C T G T T C A G T G A C A T T G A A A A T A - - - G T G A G G A G C C T T C   3980 
+
+s1 3983    T G C A G A G G T A C A T C C A A T A A G T T T A T C T T C A A G T A A A T G T C A T G A T T C T G T T G T T T C A A T   4042
+           | | | |   |   | | |       | | | |   |   |   | |   | | | | | | | | |     |       | | | | | | | | | | | | |   | | | |   | 
+s2 3981    T G C A A A A G T A G G A C C A A G A G G A T T C T C T T C A A G T G C A C A C C A T G A T T C T G T T G C T T C A G T   4040 
+
+s1 4043    G T T T A A G A T A G A A A A T C A T A A - - - T G A T A A A A C T G T A A G T G A A A A A A A T A A T A A A T G C C A   4099
+           | | | | | | | | | |   |   | |   | |   | |       | | |   | | | |   |   |       | | | | | | |     | |   | | |   | | | | | 
+s2 4041    G T T T A A G A T A A A G A A A C A A A A C A C T G A A A A A A G T T T T G A T G A A A A A T C T A G T A A G T G C C A   4100 
+
+s1 4100    A C T G A T A T T A C A A A A T A A T A T T G A A A T G A C T A C T G G C A C T T T T G T T G A A G A A A T T A C T G A   4159
+           |   |   |   | | | | | | | | | | | | | | | | | | | | | | | | | | |     |   |   | | | | | | | |         | |   |   | | | | 
+s2 4101    A G T A A C A T T A C A A A A T A A T A T T G A A A T G A C T A C C T G T A T T T T T G T T G G C A G A A A T C C T G A   4160 
+
+s1 4160    A A A T T A C A A G A G A A A T A C T G A A A A T G A A G A T A A C A A A T A T A C T G C T G C C A G T A G A A A T T C   4219
+           | | |   | | | |     |     | | | | |     | |   | | | | | | | | |   |   |       | |       | |       | |   |     | | | |   
+s2 4161    A A A A T A C A T A A A G A A T A C A A A A C A T G A A G A T A G C T A T A C T A G C T C T C A A A G A A A T A A T T T   4220 
+
+s1 4220    T C A T A A C T T A G A A T T T G A T G G C A G T G A T T C A A G T A A A A A T G A T A C T G T T T G T A T T C A T A A   4279
+               |   | | | |               | | | | | |   | | |       | | | | | | |   | |   | |       |   | | | |   | | | | | | | | | 
+s2 4221    A G A A A A C T C - - - - - - T G A T G G T A G T A T G T C A A G T A C A A G T G G C C C A G T T T A T A T T C A T A A   4274 
+
+s1 4280    A G A T G A A A C G G A C T T G C T A T T T A C T G A T C A G C A C A A C A T A T G T C T T A A A T T A T C T G G C C A   4339
+           | |   | | |   |     | |   | |   |         |   |   | | | | |       | |     |     | | | |   |   |   |   | |   |     | | | 
+s2 4275    A G G T G A C A G T G A T T T A C C - - - T G C C G A T C A A G G C A G T A A G T G T C C T G A G T C A T G T A C C C A   4331 
+
+s1 4340    G T T T A T G A A G G A G G G A A A C A C T C A G A T T A A A G A A G A T T T G T C A G A T T T A A C T T T T T T G G A   4399
+             |   |     | |     | | | |   | | | | | |   | |   | | | | |   | | |   | |   |   | | | | | | | | | | |   |   | | | | | | 
+s2 4332    A T A T G C G A G A G A G G A A A A C A C A C A A A T T A A G G A A A A T A T A T C A G A T T T A A C A T G T T T G G A   4391 
+
+s1 4400    A G T T G C G A A A G C T C A A G A A G C A T G T C A T G G T A A T A C T T C A A A T A A A G A A C A G T T A A C T G C   4459
+           |   | |     | | | | | | |   |   | | |   | | | | |   | | |     | |     | | | | |   | | | | |   | | | |   | | |   | |   | 
+s2 4392    A A T T A T G A A A G C T G A G G A A A C A T G T - A T G - - A A A T C T T C A G A T A A A A A A C A A T T A C C T T C   4448 
+
+s1 4460    T A C T A A A A C G G A G C A A A A T A T A A A A G A T T T T G A G A C T T C T G A T A C A T T T T T T C A G A C T G C   4519
+                 | | |   |   | | |   | | | | | | | | | | | | | |   | | |   |                   | |   | |     | | | | | | | | | | | 
+s2 4449    A G A T A A G A T G G A A C A A A A T A T A A A A G A G T T T A A - - - - - - - - - T A T A T C C T T T C A G A C T G C   4499 
+
+s1 4520    A A G T G G G A A A A A T A T T A G T G T C G C C A A A G A G T C A T T T A A T A A A A T T G T A A A T T T C T T T G A   4579
+           | | | | | | | | | | | | | |     | |   | | |   | | | | | | | | | | | | |   | | | | | | |   | | |   | | |   |   | | |   | 
+s2 4500    A A G T G G G A A A A A T A C C A G A G T C T C C A A A G A G T C A T T A A A T A A A A G T G T G A A T A T T T T T A A   4559 
+
+s1 4580    T C A G A A A C C A G A A G A A T T G C A T A A C T T - - - - - - T T C C T T A A A T T C T G A A T T A C A T T C T G A   4633
+           | |   |   | |   | | | |   | | | | | |     |     |   |             | | |   | |   | | | | | |   | |   |   |         | |   
+s2 4560    T C G G G A A A C A G A T G A A T T G A C T G T C A T T T C A G A T T C T T T G A A T T C T A A A A T T C T C C A T G G   4619 
+
+s1 4634    C A T A A G A A A G A A C A A A A T G G A C A T T C T A A G T T A T G A G G A A A C A G A C A T A G T T A A A C A C A A   4693
+           | | | | |     | | |   | | | | | | | |   |   |   |     |   | |   |     | |   | |   | |     | |       | | | | |       | | 
+s2 4620    C A T A A A T A A G G A C A A A A T G C A T A C T T C A T G T C A C A A G A A A G C A A T C A G T A T T A A A - - - A A   4676 
+
+s1 4694    A A T A C T G A A A G A A A G T G T C C C A G T T G G T A C T G G A A A T C A A C T A G T G A C C T T C C A G G G A C A   4753
+               | |   |     | | | |       |   | | | | |   | | |     | | | |     |   | | | |   | |       |   | |     | | |       | | 
+s2 4677    G G T A T T T G A A G A C C A T T T C C C A A T T G T A A C T G T C A G T C A A T T A C C - A G C T - - C A G C A G C A   4733 
+
+s1 4754    A C C C G A A C G T G A - - - T G A A A A G A T C A A A G A A C C T A C T C T G T T G G G T T T T C A T A C A G C T A G   4810
+             | |   | | |     | | |         | | | |     |   | | | | | | | | | | | | | | | | | | |   | | | | | | | | | | | | | | | | 
+s2 4734    T C C T G A A T A T G A A A T A G A A A G T A C C A A A G A A C C T A C T C T G T T G A G T T T T C A T A C A G C T A G   4793 
+
+s1 4811    C G G G A A A A A A G T T A A A A T T G C A A A G G A A T C T T T G G A C A A A G T G A A A A A C C T T T T T G A T G A   4870
+             | | | | | | | | | | |   | | | | | |         | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 
+s2 4794    T G G G A A A A A A G T C A A A A T T A T G C A G G A A T C T T T G G A C A A A G T G A A A A A C C T T T T T G A T G A   4853 
+
+s1 4871    A A A A G A G C A A G G T A C T A G T G A A A T C A C C A G T T T T A G C C A T C A A T G G G C A A A G A C C C T A A A   4930
+             |   |       | | |     |     | | |     | | |       | | | | | | | | | |       | | | |   |     | | | |     | | | |   | | 
+s2 4854    G A C A - - - C A A T A T G T T A G G A A A A C T G C C A G T T T T A G - - - T C A A G G A T C A A A A C C C C T G A A   4907 
+
+s1 4931    G T A C A G A G A G G C C T G T A A A G A C C T T G A A T T A G C A T G T G A G A C C A T T G A G A T C A C A G C - - -   4987
+           |   | | | |     |               | | | | |   | | |     | | | | | | | |   | | | | |     | | | | |     |   | |   | |       
+s2 4908    G G A C A G T A A A - - - - - - A A A G A A C T T A C A T T A G C A T A T G A G A A A A T T G A A G T A A C T G C C T C   4961 
+
+s1 4988    - - - - - - - - - - - - - - T G C C C C A A A G T G T - - - - - - - -   5000
+                                       | | |       |       | | |                 
+s2 4962    A A A A T G T G A A G A A A T G C A G A A C T T T G T C T C T A A G G   5000 
+
